@@ -1,0 +1,139 @@
+
+/* Estilos generales */
+body {
+    background-color: #FFFDFD; /* Fondo claro */
+    color: #4A4A4A; /* Texto gris oscuro */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+/*Estilos generales texto según guía de estilos:
+    Encabezados (h1): 2.5 rem (40px)
+    Subtítulos (h2): 2 rem (32px)
+    Texto de titulares del Pie de Página (h3): 1.75 rem (28px).
+    Texto de contenido informativo: 16px.*/
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.75rem;
+}
+
+
+
+/* Encabezado */
+header {
+    /*background-color: #a1bad3; /* Azul claro */
+    background: linear-gradient(#4a77a8, #a1bad3);
+    color: #4A4A4A; /* Texto en gris oscuro para contraste */
+}
+
+header h1 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+/* Navegación */
+nav .change-lang a{
+    color: black;
+}
+
+/* Imágenes */
+.img-index {
+    transition: 0.3s ease;
+}
+
+.img-index:hover {
+   box-shadow: 10px 10px 15px black;
+}
+
+.img-venta {
+    height: 100%;
+    opacity: 100%;
+    transition: 0.3s ease;
+}
+
+.img-venta:hover {
+    opacity: 50%;
+    transform: scale(1.05); /* Efecto de zoom */
+}
+
+.img-empleados {
+    transition: 0.3s ease;
+}
+
+.img-empleados:hover {
+   transform: scale(1.5); /* Efecto de zoom */
+}
+
+
+/* Botones y enlaces */
+.btn-primary {
+    background-color: #F0C14B; /* Amarillo mostaza */
+    border-color: #F0C14B;
+}
+
+a, .navbar-brand {
+    color: white; /* Texto blanco en el navbar */
+}
+
+a:hover {
+    color: #F0C14B; /* Hover en enlaces */
+}
+
+/* Formularios */
+.form-control {
+    background-color: white;
+    border: 1px solid #D3D3D3; /* Gris claro */
+}
+
+input[type="checkbox"]:checked {
+    background-color: #F0C14B; /* Amarillo mostaza */
+}
+
+
+/* Pie de página */
+footer {
+    background-color: #1C3D6D; /* Azul marino */
+    color: white;
+}
+
+footer h3{
+    text-shadow: 2px 2px 2px black;
+}
+
+footer ul li {
+    color: white;
+}
+
+
+footer ul {
+    list-style: none;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+footer .logo-rss{
+    width: 30px;
+    height: 30px;
+    transition: 0.3s ease;
+}
+
+footer .logo-rss:hover {
+    transform: scale(1.3); /* Efecto de zoom */
+    box-shadow: 5px 5px 10px black;
+ }
+
+#logo_footer {
+    width: 150px;
+    height: auto;
+}
